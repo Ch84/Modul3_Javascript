@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exempel 4</title>
+</head>
+<body>
+
+    <h1>Javascript - Exempel 4</h1>
+    <h2>Variabler</h2>
+
+    <p id="namn"></p>
+    <p id="total"></p>
+
+    <script>
+    
+    // Deklarera och initiera en variabel
+
+    var namn = "Christian Hall"; // En String-variabel
+    document.getElementById("namn").innerHTML = namn;
+
+    // Variabler av typen Number (heltal/decimaltal)
+
+    var pris = 95.50;
+    var antal = 5;
+    var total = pris * antal;
+
+    // En variabel som refererar till elementet med id = "total"
+
+    var el = document.getElementById("total");
+    el = total.toLocaleString() + "kr";
+
+    // Konstanter i Javascript
+
+    const TITEL = "Nackademin";
+    TITEL = "Christian"; // OBS! FEL... Titta i Chrome DevTools
+    
+    </script>
+    
+</body>
+</html>
