@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Övning 4</title>
+</head>
+<body>
+
+    <p>Rektangelns omkrets är:</p>
+
+    <p id="omkrets"></p>
+
+    <p>Rektangelns area är:</p>
+
+    <p id="area"></p>
+
+    <p>Kvadratens omkrets är:</p>
+
+    <p id="omkrets1"></p>
+
+    <p>Kvadratens area är:</p>
+
+    <p id="area1"></p>
+
+    <script>
+    
+    function omkrets(x, y) {
+
+        return x + y + x + y;
+
+    }
+
+    document.getElementById("omkrets").innerHTML = omkrets(2, 4);
+
+    function area(x, y) {
+
+        return x * y;
+
+    }
+
+    document.getElementById("area").innerHTML = area(2, 4);
+
+    function omkrets1(x, y) {
+
+        return x + y + x + y;
+
+    }
+
+    document.getElementById("omkrets1").innerHTML = omkrets(2, 2);
+
+    function area1(x, y) {
+
+        return x * y;
+
+    }
+
+    document.getElementById("area1").innerHTML = area1(2, 2);
+    
+    </script>
+    
+</body>
+</html>

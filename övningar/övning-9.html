@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Övning 9</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+    
+    var a, b, t;
+    a = parseInt(prompt("Skriv in tal att multiplicera"));
+
+    t = 1;
+    b = 1;
+
+    document.write('<table border = "2" cellspacing = "2"');
+
+    while(b <= 10) {
+
+        t = b * a;
+        document.write("<tr><td>" + a + " * " + b + " = " + t + "</tr></td>");
+        b = b+1;
+
+    }
+
+    document.write("</table>");
+    
+    </script>
+    
+</body>
+</html>
